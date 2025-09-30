@@ -4,7 +4,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
 import DarkLightToggle from "../DarkLightToggle/DarkLightToggle";
 
-const navLinks = [
+export const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Innovation', path: '/innovation' },

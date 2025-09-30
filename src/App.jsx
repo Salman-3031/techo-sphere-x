@@ -9,7 +9,7 @@ import Blogs from './pages/Blogs'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 // import AOS from "aos"
-// import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 
 
 const App = () => {
@@ -35,7 +35,7 @@ const App = () => {
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
     </div>
   )
