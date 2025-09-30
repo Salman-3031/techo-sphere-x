@@ -3,6 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import Image1 from "../../assets/images/homeHero/heroImage1.png";
 import Image2 from "../../assets/images/homeHero/heroImage2.png";
 import Slider from "react-slick";
+import { div } from "framer-motion/client";
 
 const ImageList = [
     {
@@ -56,10 +57,12 @@ const HomeHero = () => {
         pauseOnFocus: true,
     };
     return (
-        <div className='relative overflow-hidden flex justify-center items-center duration-300'>
-            <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 -z[8]"></div>
+     <div className="">
+           <div className=' relative overflow-hidden flex justify-center items-center duration-300'>
+            <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 container"></div>
 
-            <div className="container pt-[80px] dark:bg-slate-950 dark:text-white min-h-screen">
+          <div className="min-h-screen flex items-center">
+              <div className="container pt-[80px] dark:bg-slate-950 dark:text-white">
                 <Slider {...settings}>
                     {ImageList.map((image) => (
                         <div>
@@ -72,7 +75,7 @@ const HomeHero = () => {
                                             Welcome to Our Academy
                                         </p>
                                     </div>
-                                    <h1 data-aos="zoom-out" data-aos-duration="500" data-aos-once="true" className='text-5xl sm:text-6xl lg:text-7xl font-bold'>{image.title}</h1>
+                                    <h1 data-aos="zoom-out" data-aos-duration="500" data-aos-once="true" className='text-3xl sm:text-4xl lg:text-7xl font-bold'>{image.title}</h1>
                                     <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className="text-sm text-darkpara dark:text-lightpara" >
                                         {image.description}
                                     </p>
@@ -98,8 +101,10 @@ const HomeHero = () => {
                     ))}
                 </Slider>
             </div>
+          </div>
 
         </div>
+     </div>
     )
 }
 

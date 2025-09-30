@@ -13,7 +13,7 @@ const AboutHero = () => {
                             Established in 2015
                         </p>
                     </div>
-                    <h1 data-aos="zoom-out" data-aos-duration="500" data-aos-once="true" className='text-3xl  sm:text-6xl lg:text-7xl font-bold text-black dark:text-white'>TechnoSphereX Academy</h1>
+                    <h1 data-aos="zoom-out" data-aos-duration="500" data-aos-once="true" className='text-3xl sm:text-4xl lg:text-7xl font-bold text-black dark:text-white'>TechnoSphereX Academy</h1>
                     <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" className="text-sm text-darkpara dark:text-lightpara" >
                         {/* {image.description} */} At TechnoSphereX Academy, we believe that education is more than just learning—it’s about growth, confidence, and opportunities. Our mission is to provide quality education and training that prepares students to excel academically, professionally, and personally
                     </p>
