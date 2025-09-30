@@ -34,13 +34,15 @@ const Navbar = () => {
         <div onClick={() => navigate('/')}>
           {/* <img className="h-10" src={assets.logo} alt="logo" /> */}
           <h2
-            onClick={() => navigate('/')} className="logo-font text-2xl text-primary cursor-pointer tracking-wide"><span>Techno</span><span className="text-secondary">Sphere</span><span>X</span></h2>
+            className="logo-font text-2xl text-primary cursor-pointer tracking-wide"><span>Techno</span><span className="text-secondary">Sphere</span><span>X</span></h2>
         </div>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex items-center gap-4 lg:gap-8">
           {navLinks.map((link, i) => (
-            <NavLink to={link.path} key={i} className={({ isActive }) => `relative overflow-hidden h-6 group ${isActive ? 'text-secondary' : "text-primary dark:text-white"}`}>
+            <NavLink to={link.path} 
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            key={i} className={({ isActive }) => `relative overflow-hidden h-6 group ${isActive ? 'text-secondary' : "text-primary dark:text-white"}`}>
               <span className={`block group-hover:-translate-y-full transition-transform duration-300`}>{link.name}</span>
               <span
                 className="block absolute top-full left-0 group-hover:translate-y-[-100%] transition-transform duration-300">{link.name}</span>
