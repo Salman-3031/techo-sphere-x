@@ -59,9 +59,9 @@ const HomeHero = () => {
     return (
      <div className="">
            <div className=' relative overflow-hidden flex justify-center items-center duration-300'>
-            <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 container"></div>
+            <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 "></div>
 
-          <div className="min-h-screen flex items-center">
+          {/* <div className="container min-h-screen flex items-center justify-center"> */}
               <div className="container pt-[80px] dark:bg-slate-950 dark:text-white">
                 <Slider {...settings}>
                     {ImageList.map((image) => (
@@ -101,7 +101,7 @@ const HomeHero = () => {
                     ))}
                 </Slider>
             </div>
-          </div>
+          {/* </div> */}
 
         </div>
      </div>

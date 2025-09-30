@@ -71,7 +71,8 @@ const Navbar = () => {
 
                     {navLinks.map((link, i) => (
                         <NavLink
-                            onClick={() => setIsMenuOpen(false)}
+                            onClick={() => {setIsMenuOpen(false); window.scrollTo({ top: 0, behavior: "smooth" })}}
+                                // onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
                             to={link.path} key={i} className={({ isActive }) => `relative overflow-hidden h-6 group ${isActive ? 'text-secondary' : "text-primary"}`}>
                             <span className={`block group-hover:-translate-y-full transition-transform duration-300`}>{link.name}</span>
                             <span
