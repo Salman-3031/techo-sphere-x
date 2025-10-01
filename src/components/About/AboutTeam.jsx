@@ -1,25 +1,26 @@
-import team1 from '../../assets/images/AboutTeam/Team1.avif'
-import team2 from '../../assets/images/AboutTeam/Team2.avif'
+
+import team3 from '../../assets/images/AboutTeam/team3.jpg'
+import team4 from '../../assets/images/AboutTeam/team4.jpg'
 import Title from '../Title/Title'
 
 const TeamData = [
     {
-    image: team1,
+    image: team3,
     name: 'AttaUllah',
     role: 'Founder & CEO',
 },
     {
-    image: team2,
+    image: team4,
     name: 'John',
     role: 'Designer',
 },
     {
-    image: team2,
+    image: team3,
     name: 'John',
     role: 'Designer',
 },
     {
-    image: team2,
+    image: team4,
     name: 'John',
     role: 'Designer',
 },
