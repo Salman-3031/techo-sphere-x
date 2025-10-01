@@ -2,7 +2,7 @@ import React from 'react'
 import AboutHero from '../components/About/AboutHero'
 import AboutCard from '../components/About/AboutCard'
 import AboutStory from '../components/About/AboutStory'
-// import AboutOurValues from '../components/About/AboutOurValues'
+import AboutOurValues from '../components/About/AboutOurValues'
 // import AboutTeam from '../components/About/AboutTeam'
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
             <AboutHero />
             <AboutCard />
             <AboutStory />
-            {/* <AboutOurValues /> */}
+            <AboutOurValues />
             {/* <AboutTeam /> */}
         </div>
     )
