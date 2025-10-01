@@ -23,16 +23,7 @@ const TeamData = [
     name: 'John',
     role: 'Designer',
 },
-//     {
-//     image: team1,
-//     name: 'John',
-//     role: 'Designer',
-// },
-//     {
-//     image: team2,
-//     name: 'John',
-//     role: 'Designer',
-// },
+
 ]
 
 const AboutTeam = () => {
