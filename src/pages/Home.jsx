@@ -5,7 +5,7 @@ import HomeCollaboration from '../components/HomeComponent/HomeCollaboration'
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
         <HomeHero/>
         <HomeServices/>
         <HomeCollaboration/>

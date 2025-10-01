@@ -26,7 +26,7 @@ const AboutHero = () => {
                 </div>
 
 
-                <div className="aboutImg place-self-center border rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%] overflow-hidden bg-white dark:bg-bgdark order-1 sm:order-2">
+                <div className="aboutImg place-self-center rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%] overflow-hidden bg-white dark:bg-bgdark order-1 sm:order-2">
                     <img className=' h-96 max-w-96 object-cover' src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?cs=srgb&dl=pexels-italo-melo-881954-2379005.jpg&fm=jpg" alt="" />
                 </div>
             </div>

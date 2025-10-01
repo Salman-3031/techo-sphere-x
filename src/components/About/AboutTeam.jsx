@@ -1,5 +1,6 @@
 import team1 from '../../assets/images/AboutTeam/Team1.avif'
 import team2 from '../../assets/images/AboutTeam/Team2.avif'
+import Title from '../Title/Title'
 
 const TeamData = [
     {
@@ -22,21 +23,23 @@ const TeamData = [
     name: 'John',
     role: 'Designer',
 },
-    {
-    image: team1,
-    name: 'John',
-    role: 'Designer',
-},
-    {
-    image: team2,
-    name: 'John',
-    role: 'Designer',
-},
+//     {
+//     image: team1,
+//     name: 'John',
+//     role: 'Designer',
+// },
+//     {
+//     image: team2,
+//     name: 'John',
+//     role: 'Designer',
+// },
 ]
 
 const AboutTeam = () => {
   return (
     <div>
+        <Title title={"Meet Our Dedicated Team"} description={"Our experienced instructors and staff are committed to guiding students toward academic excellence and personal growth."}/>
+
         <div className="container bg-bglight dark:bg-bgdark grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 md:gap-10 pb-10">
             
             {

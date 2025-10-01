@@ -27,12 +27,11 @@ const Navbar = () => {
     }, []);
 
     return (
-        <header className={`z-50 fixed top-0 left-0 w-full bg-gray-100 dark:bg-slate-950 ${isScrolled && "shadow-md shadow-darkpara/60 dark:shadow-lightpara/10"}`}>
-            <nav className={`container flex items-center justify-between transition-all duration-500 z-50 ${isScrolled ? "py-3 md:py-4" : "py-4 md:py-6"}`}>
+        <header className={`z-50 fixed top-0 left-0 w-full `}>
+            <nav className={` bg-gray-100 dark:bg-slate-950 ${isScrolled && "shadow-md shadow-darkpara/60 dark:shadow-lightpara/10"}     container flex items-center justify-between transition-all duration-500 z-50 ${isScrolled ? "py-3 md:py-4" : "py-4 md:py-6"}`}>
 
                 {/* Logo */}
                 <div onClick={() => navigate('/')}>
-                    {/* <img className="h-10" src={assets.logo} alt="logo" /> */}
                     <h2
                         className="logo-font text-2xl text-primary cursor-pointer tracking-wide"><span>Techno</span><span className="text-secondary">Sphere</span><span>X</span></h2>
                 </div>
