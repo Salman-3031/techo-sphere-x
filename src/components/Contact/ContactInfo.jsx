@@ -42,8 +42,8 @@ const ContactInfo = () => {
              key={index}>
                 <span className='text-3xl mb-3 dark:text-white'><data.icon/></span>
                 <h4 className='text-lg dark:text-white'>{data.title}</h4>
-                <p className='text-darkpara dark:text-lightpara'>{data.detail1}</p>
-                <p className='text-darkpara dark:text-lightpara'>{data.detail2}</p>
+                <p className='text-darkpara dark:text-lightpara text-center'>{data.detail1}</p>
+                <p className='text-darkpara dark:text-lightpara text-center'>{data.detail2}</p>
             </div>
         ))}
         </div>

@@ -6,7 +6,7 @@ const ContactHero = () => {
        <div>
          <div
             className="container pt-[80px] md:pt-[100px] min-h-screen h-full w-full 
-      bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://media.istockphoto.com/id/2122148349/photo/writing-an-exam-at-the-university.jpg?s=612x612&w=0&k=20&c=LgVzLcd_cxNDQrolZFFqg7AIQnTd_xBrvdWfr-eVoK8=')] 
+      bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.6)),url('https://media.istockphoto.com/id/2122148349/photo/writing-an-exam-at-the-university.jpg?s=612x612&w=0&k=20&c=LgVzLcd_cxNDQrolZFFqg7AIQnTd_xBrvdWfr-eVoK8=')] 
       bg-cover bg-center flex justify-center items-center flex-col"
         >
             <div className='flex gap-2 items-center px-4 py-1 rounded-full bg-black dark:bg-gray-100 w-max '>

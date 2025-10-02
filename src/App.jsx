@@ -10,6 +10,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 // import AOS from "aos"
 import Footer from './components/Footer/Footer'
+import InnovationDetail from './components/Innovation/InnovationDetails'
+
+import { InnovationData } from './components/Innovation/FeaturedInnovation'
 
 
 const App = () => {
@@ -32,6 +35,7 @@ const App = () => {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/innovation' element={<Innovation />} />
+          <Route path='/innovation/:id'  element={<InnovationDetail InnovationData={InnovationData} />} />
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
