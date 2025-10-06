@@ -3,7 +3,6 @@ import { IoLocation } from "react-icons/io5";
 import { IoMdCall } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
 import { IoTimeSharp } from "react-icons/io5";
-import { div } from 'framer-motion/client';
 
 
 const contactInfoData = [
