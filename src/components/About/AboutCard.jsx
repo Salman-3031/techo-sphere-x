@@ -13,8 +13,8 @@ const AboutCardData = [
 
 const AboutCard = () => {
   return (
-  <div>
-      <div className=" container bg-bglight dark:bg-bgdark grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-10 ">
+  <div className='bg-bglight dark:bg-bgdark'>
+      <div className=" container  grid grid-cols-1 sm:grid-col-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-10 ">
         {
           AboutCardData.map((data, index)=>(
             <div key={index} className='p-3 bg-lightpara dark:bg-darkpara flex justify-center flex-col items-center'>

@@ -4,7 +4,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa6";
 import attaUllah from '../../assets/images/AboutTeam/attaUllah.jpg'
 import shakeelAhmad from '../../assets/images/AboutTeam/shakeelAhmad.jpeg'
 import team3 from '../../assets/images/AboutTeam/team3.jpg'
-    
+
 
 const TeamData = [
     {
@@ -43,13 +43,13 @@ const AboutTeam = () => {
     const [selectedMember, setSelectedMember] = useState(null);
 
     return (
-        <div>
+        <div className="bg-bglight dark:bg-bgdark">
             <Title
                 title={"Meet Our Dedicated Team"}
                 description={"Our experienced instructors and staff are committed to guiding students toward academic excellence and personal growth."}
             />
 
-            <div className="container bg-bglight dark:bg-bgdark grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 md:gap-10 pb-10">
+            <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 md:gap-10 pb-10">
                 {TeamData.map((data, index) => (
                     <div
                         key={index}

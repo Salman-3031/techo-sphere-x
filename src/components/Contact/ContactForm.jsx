@@ -3,10 +3,10 @@ import Title from '../Title/Title'
 
 const ContactForm = () => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-bglight dark:bg-bgdark">
       <Title title="Send Us a Message" description="Fill out the form below and we'll get back to you as soon as possible."/>
 
-     <div className="container bg-bglight dark:bg-bgdark pb-10">
+     <div className="container  pb-10">
        <form className="max-w-3xl border p-5 rounded-sm border-lightpara dark:border-darkpara  mx-auto space-y-6">
         <div>
           <label className="block text-left text-gray-700 dark:text-gray-200 mb-1">

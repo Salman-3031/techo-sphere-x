@@ -34,8 +34,8 @@ const contactInfoData = [
 
 const ContactInfo = () => {
   return (
-    <div>
-        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 py-20 bg-bglight dark:bg-bgdark">
+    <div className='bg-bglight dark:bg-bgdark'>
+        <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-10 py-20 ">
         {contactInfoData.map((data, index)=>(
             <div className='p-5 flex flex-col items-center rounded-sm shadow dark:shadow-[#ffffff28] shadow-[#0000004c]'
              key={index}>

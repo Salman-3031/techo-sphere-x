@@ -31,10 +31,10 @@ export const InnovationData = [
 
 const FeaturedInnovation = () => {
     return (
-        <div>
+        <div className='bg-bglight dark:bg-bgdark'>
             <Title title="Featured Innovations" description="Discover our latest breakthrough technologies that are making a real difference in people's lives" />
 
-            <div className="container bg-bglight dark:bg-bgdark pb-10 ">
+            <div className="container  pb-10 ">
                 {
                     InnovationData.map((data, index) => (
                         <div key={index} className='space-y-4 overflow-hidden rounded-md shadow shadow-[#0000004b] dark:shadow-[#ffffff40] mb-5 relative'>

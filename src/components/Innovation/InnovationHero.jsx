@@ -3,11 +3,11 @@ import React from 'react'
 
 const Innovationhero = () => {
     return (
-        <div>
+        <div className="  bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.6)),url('https://s44650.pcdn.co/wp-content/uploads/2024/06/best-financial-innovations-2024-scaled.jpg')] 
+  bg-cover bg-center">
             <div
                 className="container pt-[80px] md:pt-[100px] min-h-screen h-full w-full 
-  bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,100,0.6)),url('https://s44650.pcdn.co/wp-content/uploads/2024/06/best-financial-innovations-2024-scaled.jpg')] 
-  bg-cover bg-center flex justify-center items-center flex-col"
+ flex justify-center items-center flex-col"
             >
                 <div className='flex gap-2 items-center px-4 py-1 rounded-full bg-black dark:bg-gray-100 w-max'>
                     {/* <BiSolidContact className='text-white dark:text-black size-5' /> */}

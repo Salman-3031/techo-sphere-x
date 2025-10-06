@@ -17,8 +17,8 @@ const OurValuesData = [
 
 const AboutOurValues = () => {
     return (
-        <div>
-            <div className="container bg-bglight dark:bg-bgdark pb-10">
+        <div className='bg-bglight dark:bg-bgdark'>
+            <div className="container  pb-10">
             <div className="text-center">
                     <p className='px-2 py-px rounded-full bg-lightpara dark:bg-darkpara text-darkpara dark:text-lightpara text-sm mb-2 inline-block align-middle'>Our Values</p>
             </div>

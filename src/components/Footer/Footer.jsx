@@ -9,13 +9,11 @@ import { navLinks } from '../Navbar/Navbar';
 const Footer = () => {
     const navigate = useNavigate()
     return (
-        <footer>
-            <div className="container bg-[#d7d7d7] dark:bg-slate-900    pt-10 pb-24 grid grid-cols-1 sm:grid-cols-[2fr_1fr] md:grid-cols-[2fr_1fr_1fr] gap-5">
+        <footer className='bg-[#d7d7d7] dark:bg-slate-900'>
+            <div className="container pt-10 pb-24 grid grid-cols-1 sm:grid-cols-[2fr_1fr] md:grid-cols-[2fr_1fr_1fr] gap-5">
 
                 {/* first col start */}
                 <div>
-                    {/* Logo */}
-                    {/* <img className="h-10" src={assets.logo} alt="logo" /> */}
                     <h2
                         onClick={() => { navigate('/'); scrollTo(0, 0) }} className="logo-font text-2xl text-primary cursor-pointer tracking-wide mb-2"><span>Techno</span><span className="text-secondary">Sphere</span><span>X</span></h2>
                     <p className='text-darkpara dark:text-lightpara'>Opposite to SPS College, G.T Road, Rahimabad, Mingora, Swat</p>

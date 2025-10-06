@@ -3,9 +3,9 @@ import Title from "../Title/Title";
 
 const FindUsOnGoogle = () => {
   return (
-    <section className="w-full ">
+    <section className="w-full bg-bglight dark:bg-bgdark">
        <Title title={"Find Us on Google"} description={"Click below to view our location on Google Maps."}/>
-      <div className="container text-center bg-bglight dark:bg-bgdark">
+      <div className="container text-center ">
        
         <a
           href="https://maps.app.goo.gl/xuat3LdWgZynQuy37"

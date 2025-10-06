@@ -2,8 +2,8 @@ import React from 'react'
 
 const AboutStory = () => {
     return (
-        <div >
-            <div className="container sm:py-10 bg-bglight dark:bg-bgdark">
+        <div className='bg-bglight dark:bg-bgdark'>
+            <div className="container sm:py-10">
                 <p className='px-2 py-px rounded-full bg-lightpara dark:bg-darkpara text-darkpara dark:text-lightpara text-sm inline-block mb-2 align-middle'>Our Story</p>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-0 sm:gap-10">

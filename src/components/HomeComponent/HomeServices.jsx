@@ -29,10 +29,10 @@ const ServicesData = [
 const HomeServices = () => {
 
     return (
-        <div>
+        <div className='bg-bglight dark:bg-bgdark'>
             <Title title="Our Services" description="Explore our range of IT solutions and executive training programs." />
             
-            <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 py-5 bg-bglight dark:bg-bgdark">
+            <div className="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 py-5 ">
                 {ServicesData.map((service, index) => (
                     <div key={index}
                         className='group p-5 space-y-2  bg-bgdark dark:bg-bglight rounded-sm relative z-10 overflow-hidden transition-all  before:duration-500 before:bg-secondary before:dark:bg-primary  before:absolute before:inset-0 before:-z-10 before:translate-y-full before:hover:translate-y-0 before:transition-all '>

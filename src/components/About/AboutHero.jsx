@@ -3,8 +3,8 @@ import "./AboutHero.css"
 
 const AboutHero = () => {
     return (
-        <div>
-            <div className="container pt-[80px] md:pt-[100px] min-h-screen bg-bglight dark:bg-bgdark grid justify-center items-center grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10">
+        <div className='bg-bglight dark:bg-bgdark'>
+            <div className="container pt-[80px] md:pt-[100px] min-h-screen  grid justify-center items-center grid-cols-1 sm:grid-cols-2 gap-5 sm:gap-10">
 
                 {/* <div className="info"> */}
                 <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-left  relative z-10 order-2 sm:order-1">

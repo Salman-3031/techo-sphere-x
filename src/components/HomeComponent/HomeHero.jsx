@@ -33,13 +33,6 @@ const ImageList = [
     //     description:
     //         "Discover personalized programs, dedicated mentors, and resources designed to help you reach your goals.",
     // },
-    // {
-    //     id: 5,
-    //     img: Image2,
-    //     title: "Excellence in Education, Innovation in Learning",
-    //     description:
-    //         "Experience a blend of traditional values and modern teaching strategies that prepare you for the future.",
-    // },
 ];
 
 const HomeHero = () => {
@@ -56,12 +49,12 @@ const HomeHero = () => {
         pauseOnFocus: true,
     };
     return (
-     <div className="">
+     <div className="bg-bglight dark:bg-bgdark">
            <div className=' relative overflow-hidden flex justify-center items-center duration-300'>
             <div className="h-[700px] w-[700px] bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 "></div>
 
           {/* <div className="container min-h-screen flex items-center justify-center"> */}
-              <div className="container pt-[80px] dark:bg-slate-950 dark:text-white">
+              <div className="container pt-[80px] bg-bglight dark:bg-bgdark dark:text-white">
                 <Slider {...settings}>
                     {ImageList.map((image) => (
                         <div>

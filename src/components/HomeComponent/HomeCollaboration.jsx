@@ -28,10 +28,10 @@ const collaborationData = [
 
 const HomeCollaboration = () => {
     return (
-        <div>
+        <div className="bg-bglight dark:bg-bgdark">
             <Title title="Our Collaboration" description="Explore our range of IT solutions and executive training programs." />
 
-            <div className="container overflow-hidden bg-bglight dark:bg-bgdark pt-5 pb-10">
+            <div className="container overflow-hidden  pt-5 pb-10">
 
                 <motion.div
                     className="flex gap-20"
