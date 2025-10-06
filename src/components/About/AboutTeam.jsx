@@ -1,6 +1,6 @@
 import { useState } from "react";
-import team3 from '../../assets/images/aboutTeam/team3.jpg'
-import team4 from '../../assets/images/aboutTeam/team4.jpg'
+// import team3 from '../../assets/images/aboutTeam/team3.jpg'
+// import team4 from '../../assets/images/aboutTeam/team4.jpg'
 import Title from '../Title/Title'
 import { FaFacebook, FaTwitter } from "react-icons/fa6";
 
