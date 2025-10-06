@@ -1,12 +1,12 @@
 import { useState } from "react";
-import attaUllah from '../../assets/images/aboutTeam/attaUllah.jpg'
+import AttaUllah from '../../assets/images/aboutTeam/attaUllah.jpg'
 import shakeelAhmad from '../../assets/images/aboutTeam/shakeelAhmad.jpeg'
 import Title from '../Title/Title'
 import { FaFacebook, FaTwitter } from "react-icons/fa6";
 
 const TeamData = [
     {
-        image: attaUllah,
+        image: AttaUllah,
         name: 'AttaUllah',
         role: 'Founder & CEO',
         description: 'Leading the academy with vision and dedication.',
