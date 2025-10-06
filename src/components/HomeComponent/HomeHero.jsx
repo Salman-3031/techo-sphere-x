@@ -1,9 +1,8 @@
 
 import { FaGraduationCap } from "react-icons/fa";
-import Image1 from "../../assets/images/homeHero/heroImage1.png";
-import Image2 from "../../assets/images/homeHero/heroImage2.png";
+import Image1 from "../../assets/images/HomeHero/heroImage1.png";
+import Image2 from "../../assets/images/HomeHero/heroImage2.png";
 import Slider from "react-slick";
-import { div } from "framer-motion/client";
 
 const ImageList = [
     {
