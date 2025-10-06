@@ -1,7 +1,9 @@
 import { useState } from "react";
 // import AttaUllah from '../../assets/images/aboutTeam/attaUllah.jpg'
 // import shakeelAhmad from '../../assets/images/aboutTeam/shakeelAhmad.jpeg'
-import team1 from '../../assets/images/aboutTeam/team1.avif'
+// import team1 from '../../assets/images/aboutTeam/team1.avif'
+// import team1 from "../../assets/team1.avif"
+import team1 from "D:/Web projects/TechnoSphereX/src/assets/team1.avif"
 import Title from '../Title/Title'
 import { FaFacebook, FaTwitter } from "react-icons/fa6";
 
