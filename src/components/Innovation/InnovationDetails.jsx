@@ -5,7 +5,7 @@ const InnovationDetail = ({ InnovationData }) => {
   const { id } = useParams();
 //   console.log(useParams())
 
-  // Find innovation by index or ID
+  // Find innovation by index
   const innovation = InnovationData[id];
   console.log(innovation)
 

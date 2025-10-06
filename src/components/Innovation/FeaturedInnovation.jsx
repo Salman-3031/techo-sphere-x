@@ -50,6 +50,7 @@ const FeaturedInnovation = () => {
                                 <p className='text-darkpara  dark:text-lightpara line-clamp-6'>{data.description}</p>
                                 <button
                                     className='bg-primary hover:bg-primary/90 px-5 py-2 rounded-md mt-3 text-white'>
+                                        {/* go to featuredInnovation.jsx */}
                                     <Link
                                         to={`/innovation/${index}`}
                                         onClick={()=>window.scrollTo({top:0, behavior: 'smooth'})}
