@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter } from "react-icons/fa6";
 
 const TeamData = [
     {
-        image: team3,
+        image: '',
         name: 'AttaUllah',
         role: 'Founder & CEO',
         description: 'Leading the academy with vision and dedication.',
@@ -16,7 +16,7 @@ const TeamData = [
         twitter: "https://twitter.com/attaullah",
     },
     {
-        image: team4,
+        image: '',
         name: 'Engr. Shakeel Ahmad',
         role: 'Sr. Network Engineer',
         description: 'A highly qualified networking professional with extensive experience in the field, Engr. Shakeel Ahmad Yousafzai is a certified trainer specializing in CCNA, CCNP, and Cybersecurity. Holding multiple international certifications including CCNA RS, CCNA CyberOps, CCNP, CEH, HCIA RS, HCIP RS, MCSA, MCSE, and MCP, he is passionate about delivering hands-on, industry-relevant training that prepares students for real-world IT environments. ',
