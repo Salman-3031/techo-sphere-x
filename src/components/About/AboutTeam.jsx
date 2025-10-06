@@ -1,12 +1,13 @@
 import { useState } from "react";
-import AttaUllah from '../../assets/images/aboutTeam/attaUllah.jpg'
-import shakeelAhmad from '../../assets/images/aboutTeam/shakeelAhmad.jpeg'
+// import AttaUllah from '../../assets/images/aboutTeam/attaUllah.jpg'
+// import shakeelAhmad from '../../assets/images/aboutTeam/shakeelAhmad.jpeg'
+import team1 from '../../assets/images/aboutTeam/team1.avif'
 import Title from '../Title/Title'
 import { FaFacebook, FaTwitter } from "react-icons/fa6";
 
 const TeamData = [
     {
-        image: AttaUllah,
+        image: team1,
         name: 'AttaUllah',
         role: 'Founder & CEO',
         description: 'Leading the academy with vision and dedication.',
@@ -15,16 +16,16 @@ const TeamData = [
         facebook: "https://facebook.com/attaullah",
         twitter: "https://twitter.com/attaullah",
     },
-    {
-        image: shakeelAhmad,
-        name: 'Engr. Shakeel Ahmad',
-        role: 'Sr. Network Engineer',
-        description: 'A highly qualified networking professional with extensive experience in the field, Engr. Shakeel Ahmad Yousafzai is a certified trainer specializing in CCNA, CCNP, and Cybersecurity. Holding multiple international certifications including CCNA RS, CCNA CyberOps, CCNP, CEH, HCIA RS, HCIP RS, MCSA, MCSE, and MCP, he is passionate about delivering hands-on, industry-relevant training that prepares students for real-world IT environments. ',
-        phone: '+92 311 9876543',
-        email: 'john@example.com',
-        facebook: "https://facebook.com",
-        twitter: "https://twitter.com",
-    }
+    // {
+    //     image: shakeelAhmad,
+    //     name: 'Engr. Shakeel Ahmad',
+    //     role: 'Sr. Network Engineer',
+    //     description: 'A highly qualified networking professional with extensive experience in the field, Engr. Shakeel Ahmad Yousafzai is a certified trainer specializing in CCNA, CCNP, and Cybersecurity. Holding multiple international certifications including CCNA RS, CCNA CyberOps, CCNP, CEH, HCIA RS, HCIP RS, MCSA, MCSE, and MCP, he is passionate about delivering hands-on, industry-relevant training that prepares students for real-world IT environments. ',
+    //     phone: '+92 311 9876543',
+    //     email: 'john@example.com',
+    //     facebook: "https://facebook.com",
+    //     twitter: "https://twitter.com",
+    // }
 ];
 
 const AboutTeam = () => {
