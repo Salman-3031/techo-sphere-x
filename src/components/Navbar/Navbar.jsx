@@ -8,7 +8,7 @@ export const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About Us', path: '/about' },
     { name: 'Innovation', path: '/innovation' },
-    { name: 'Blogs', path: '/blogs' },
+    { name: 'Blogs', path: '/blogs' }, 
     { name: 'Contact', path: '/contact' },
 ];
 // nnavbar
