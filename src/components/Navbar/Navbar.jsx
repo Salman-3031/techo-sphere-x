@@ -11,6 +11,7 @@ export const navLinks = [
     { name: 'Blogs', path: '/blogs' },
     { name: 'Contact', path: '/contact' },
 ];
+// nnavbar
 
 const Navbar = () => {
 
