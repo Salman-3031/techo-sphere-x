@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-          colors: {
+      colors: {
         primary: '#0b57a5',
         secondary: '#ff8b35',
         lightpara: "#adb5bd",
@@ -14,7 +14,7 @@ export default {
         bgdark: '#020617',
         bglight: '#F3F4F6'
       },
-         container: {
+      container: {
         center: true,
         padding: {
           DEFAULT: "1rem",
@@ -25,6 +25,6 @@ export default {
     },
   },
   plugins: [],
-   darkMode: "class"
+  darkMode: "class"
 }
 
